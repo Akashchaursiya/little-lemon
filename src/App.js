@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav from "./components/Nav"
+import Header from "./components/Header"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Home page description</p>
+    <React.Fragment>
+      <Nav />
+      <Main />
+      <Footer />
+    </React.Fragment>
     </div>
   );
 }
